@@ -1,0 +1,157 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:5d966da9-e7da-4134-99e6-b877b5b06c4e",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-07-24T02:34:45Z",
+    "tools": [
+      {
+        "vendor": "Black Duck",
+        "name": "Hub",
+        "version": "2025.4.1"
+      },
+      {
+        "vendor": "CycloneDX",
+        "name": "cyclonedx-core-java",
+        "version": "5.0.5"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Toshiba Corporation",
+        "email": "hdq-tosspedia-help@ml.toshiba.co.jp"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "bom-ref": "832aa00d-750a-4c3c-8fd2-5f88ab211239",
+      "supplier": {
+        "name": ""
+      },
+      "name": "Test_Chan",
+      "version": "20250724_20250724113312",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown License"
+          }
+        }
+      ],
+      "pedigree": {
+        "notes": "Unknown License"
+      },
+      "properties": [
+        {
+          "name": "BlackDuck-Component",
+          "value": "b0340890-d5f3-4328-973b-381273a82a28"
+        },
+        {
+          "name": "BlackDuck-ComponentVersion",
+          "value": "832aa00d-750a-4c3c-8fd2-5f88ab211239"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "3c5e9750-567a-4fee-ad75-eff1f82fb926",
+      "supplier": {
+        "name": "Organization: org.webjars.npm"
+      },
+      "name": "@fortawesome/fontawesome-free",
+      "version": "6.7.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "OFL-1.1"
+          }
+        },
+        {
+          "license": {
+            "id": "CC-BY-4.0"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.webjars.npm/fortawesome__fontawesome-free@6.7.2",
+      "pedigree": {
+        "notes": "(MIT License AND SIL Open Font License 1.1 AND Creative Commons Attribution 4.0)"
+      },
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://fontawesome.com"
+        }
+      ],
+      "properties": [
+        {
+          "name": "BlackDuck-Component",
+          "value": "9a2a261f-0e77-4b9b-8c3c-40dc36854fbb"
+        },
+        {
+          "name": "BlackDuck-ComponentVersion",
+          "value": "3c5e9750-567a-4fee-ad75-eff1f82fb926"
+        },
+        {
+          "name": "BlackDuck-ComponentOrigin",
+          "value": "5b2cd205-515d-497f-8f3b-799f31c5bc9a"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "428357da-3cce-4ce0-a8f4-20fd3239cd56",
+      "supplier": {
+        "name": "Organization: toshiba"
+      },
+      "name": "Chan Comp",
+      "version": "20250729",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:github/chan/comp@20250729",
+      "pedigree": {
+        "notes": "BSD 3-clause \"New\" or \"Revised\" License"
+      },
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://golang.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "BlackDuck-Component",
+          "value": "6d055c2b-f7d7-45ab-a6b3-021617efd61b"
+        },
+        {
+          "name": "BlackDuck-ComponentVersion",
+          "value": "428357da-3cce-4ce0-a8f4-20fd3239cd56"
+        },
+        {
+          "name": "BlackDuck-ComponentOrigin",
+          "value": "ca908bbf-3ef0-4b74-a62f-1821e3afbcdc"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "832aa00d-750a-4c3c-8fd2-5f88ab211239",
+      "dependsOn": [
+        "3c5e9750-567a-4fee-ad75-eff1f82fb926",
+        "428357da-3cce-4ce0-a8f4-20fd3239cd56"
+      ]
+    }
+  ]
+}
